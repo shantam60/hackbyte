@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    cursor: pointer;
+}
+.flex-nav{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    padding: 10px 2%;
+    justify-content:space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    position:sticky;
+    z-index: 10;
+    top:0;
+
+}
+.right img{
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2px;
+    font-weight: bold;
+    margin-left: 75%;
+}
+
+.login{
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(236, 12, 168);
+}
+.Signup{
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(236, 12, 168);
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.logo{
+    height: 50px;
+    width: 80px;
+    margin-left: 0px;
+}
+.mainpage{
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    color: rgb(236, 12, 168);
+}
+.About_us{
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    color: rgb(236, 12, 168);
+    display: flex;
+    flex-direction: row;
+}
+
+.pink{
+    position: absolute;
+    height: 100%;
+    width:100%;
+}
+.logo2{
+    height:25%;
+    width: 30%;
+    top: 200px;
+    left: 100px;
+    position: relative;
+}
+.para{
+    font-size: 50px;
+    color: rgb(236, 12, 168);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    left: 20%;
+    line-height:0.5em;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 30px;
+}
+.para2{
+    font-size: 30px;
+    color: rgb(236, 12, 168);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 5%;
+    line-height:0.5em;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    padding: 10px 2%;
+    justify-content:space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    position:sticky;
+    z-index: 10;
+    bottom: 0px;
+    margin-top: 60px;
+    margin-left: 0%;
+}
+.contact{
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(236, 12, 168);
+}
+.footer img{
+    width: 30px;
+    height: 35px;
+    margin-left: 10px;
+}
+.bottom{
+    display:flex;
+    flex-direction: row;
+    margin-left: 2px;
+}
